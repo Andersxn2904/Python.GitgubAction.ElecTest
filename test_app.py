@@ -10,7 +10,7 @@ class TestApp(unittest.TestCase):
         self.assertEqual(add(0, 0), 0)
         
     def test_Sustract(self):
-        self.assertEqual(Sustract(5, 2), 3)
+        self.assertEqual(Sustract(5, 5), 3)
 
 
 if __name__ == "__main__":
